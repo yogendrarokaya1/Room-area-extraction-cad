@@ -1,0 +1,767 @@
+{
+  "id": "2a4828f9-8518-4bdf-a004-d0d1979a723e",
+  "originalName": "FINAL FOR JURY 10-7.dwg",
+  "uploadedAt": "2026-10-29T05:51:57.471Z",
+  "stats": {
+    "entities": 8712,
+    "layers": 43,
+    "insUnits": 2,
+    "textEntities": 797,
+    "roomLabels": 79,
+    "floorTitles": 7
+  },
+  "groups": [
+    {
+      "id": "65333b53-04aa-4982-9bd1-b6c23e87aad4",
+      "name": "BASEMENT FLOOR",
+      "merged": false,
+      "info": "(Area = 6558.00 Sq.ft)",
+      "rooms": [
+        {
+          "id": "f8bd5f85-3897-4ca1-8725-1f362e1c9037",
+          "name": "LIFT",
+          "length": 7.4167,
+          "breadth": 5.9167,
+          "areaFt2": 43.88,
+          "areaOverridden": false,
+          "source": "label"
+        }
+      ]
+    },
+    {
+      "id": "8d8c2a5f-de2f-46aa-9eae-c112f9eae567",
+      "name": "GROUND FLOOR",
+      "merged": false,
+      "info": "(Area = 4788.00 Sq.ft)",
+      "rooms": [
+        {
+          "id": "d0203341-5e24-47c6-b13e-015bc5c3e0ef",
+          "name": "Kitchen+Dining",
+          "length": 17,
+          "breadth": 9.8333,
+          "areaFt2": 167.17,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "5390f50a-b378-4c9e-a452-3a187ad48603",
+          "name": "C. W/C",
+          "length": 5,
+          "breadth": 9.5,
+          "areaFt2": 47.5,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "14591756-7047-48db-853d-e54f7f08d150",
+          "name": "ATT. W/C",
+          "length": 5,
+          "breadth": 10.5,
+          "areaFt2": 52.5,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "b0143592-daaa-49c6-8f6a-c76546f277cc",
+          "name": "ELECTRICAL ROOM",
+          "length": 5,
+          "breadth": 13,
+          "areaFt2": 65,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "472fc68e-5569-4f4b-8fa7-72f5b1eae637",
+          "name": "BEDROOM",
+          "length": 15.1667,
+          "breadth": 14.5,
+          "areaFt2": 219.92,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "3f0a4338-be9c-4787-9c82-2e91af9ceda4",
+          "name": "LIFT",
+          "length": 7.4167,
+          "breadth": 5.9167,
+          "areaFt2": 43.88,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "3ccf2498-5e36-4d14-a6fb-45a0e872d378",
+          "name": "LIVING ROOM",
+          "length": 17,
+          "breadth": 11.4167,
+          "areaFt2": 194.08,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "6ed3d886-bcfd-4d19-ae5e-682949172359",
+          "name": "FOYER",
+          "length": 5,
+          "breadth": 6.75,
+          "areaFt2": 33.75,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "581b2521-5785-4e19-acf9-1b26e1d18c81",
+          "name": "OPEN LOBBY",
+          "length": 20.5,
+          "breadth": 11.75,
+          "areaFt2": 240.88,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "ed9cba12-ec92-473f-9996-c661d4b13d71",
+          "name": "KITCHEN+DINING",
+          "length": 9.5,
+          "breadth": 18.3333,
+          "areaFt2": 174.17,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "235214a9-926c-4f00-8fe4-c8006844dfa1",
+          "name": "LIVING ROOM",
+          "length": 12.1667,
+          "breadth": 18.3333,
+          "areaFt2": 223.06,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "4068d5a9-a4f4-444c-85c7-46f17940ae3d",
+          "name": "FOYER",
+          "length": 7.5,
+          "breadth": 11.8333,
+          "areaFt2": 88.75,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "2a2f6301-ca28-45e4-a9f4-0dc8b51239ce",
+          "name": "FOYER",
+          "length": 7.5,
+          "breadth": 11.5,
+          "areaFt2": 86.25,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "adce73f0-b1c5-400a-a6dc-beea18804295",
+          "name": "KITCHEN+DINING",
+          "length": 6.75,
+          "breadth": 18.3333,
+          "areaFt2": 123.75,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "8b214511-b9df-4efc-b60c-2383bb61eaf4",
+          "name": "LIVING ROOM",
+          "length": 10.25,
+          "breadth": 17.25,
+          "areaFt2": 176.81,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "507bc32a-3c7d-485c-ada5-dad2db7216b0",
+          "name": "BEDROOM",
+          "length": 15.9167,
+          "breadth": 17.1667,
+          "areaFt2": 273.24,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "30e40bb6-e014-4302-85f2-d6375dedbf3d",
+          "name": "BEDROOM",
+          "length": 16.5,
+          "breadth": 17.25,
+          "areaFt2": 284.63,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "0aa84539-a8a5-48aa-b5bf-deb245ef11d5",
+          "name": "C. W/C",
+          "length": 6.8333,
+          "breadth": 13.0833,
+          "areaFt2": 89.4,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "7f6ad235-b4fd-418d-8299-811274776548",
+          "name": "C. W/C",
+          "length": 6.8333,
+          "breadth": 13.0833,
+          "areaFt2": 89.4,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "4e3f583c-5ec1-4e2e-93c5-5b5256b986d3",
+          "name": "WALK IN CLOSET",
+          "length": 6.0833,
+          "breadth": 10.1667,
+          "areaFt2": 61.85,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "4a92f266-9709-4d3a-baca-45bf79f4ef77",
+          "name": "WALK IN CLOSET",
+          "length": 5.0833,
+          "breadth": 10.1667,
+          "areaFt2": 51.68,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "a982934f-1f6f-4fd8-a34c-de124c34ff8b",
+          "name": "SHOP 1",
+          "length": 21.25,
+          "breadth": 17.25,
+          "areaFt2": 366.56,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "89d305a4-14d6-41a2-85b4-74909e4c755c",
+          "name": "SHOP 2",
+          "length": 24.9167,
+          "breadth": 17.25,
+          "areaFt2": 429.81,
+          "areaOverridden": false,
+          "source": "label"
+        }
+      ]
+    },
+    {
+      "id": "d6e99513-d1c9-4d09-ab0b-e632d65efcf9",
+      "name": "FIRST FLOOR",
+      "merged": false,
+      "info": "(Area = 4788.00 Sq.ft) (Balcony Area = 278.00 Sq.ft) (Area = 5066.00 Sq.ft)",
+      "rooms": [
+        {
+          "id": "ba657870-4286-4829-b7a9-89ce2bac731f",
+          "name": "KITCHEN+DINING",
+          "length": 17,
+          "breadth": 9.8333,
+          "areaFt2": 167.17,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "34dd0441-d02f-4601-aa31-42fb6a56c30c",
+          "name": "C. W/C",
+          "length": 5,
+          "breadth": 9.5,
+          "areaFt2": 47.5,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "aacaf111-0fd8-454a-80f1-f787871dc741",
+          "name": "ELECTRICAL ROOM",
+          "length": 5,
+          "breadth": 13,
+          "areaFt2": 65,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "fd1d108f-c80a-472c-bbf3-2d9446ce8b5e",
+          "name": "ATT. W/C",
+          "length": 5,
+          "breadth": 10.5,
+          "areaFt2": 52.5,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "a0095938-5a94-42d4-b285-c8c3c4c77a5c",
+          "name": "ELECTRICAL ROOM",
+          "length": 5,
+          "breadth": 13,
+          "areaFt2": 65,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "2f30ca63-87b6-48ec-a6b5-998324a8f22c",
+          "name": "BEDROOM",
+          "length": 15.1667,
+          "breadth": 14.5,
+          "areaFt2": 219.92,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "9d5cfa53-9c20-4112-b3b5-625b78535215",
+          "name": "LIFT",
+          "length": 7.4167,
+          "breadth": 5.9167,
+          "areaFt2": 43.88,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "7c186d57-02bc-45eb-80e8-c10e28537b48",
+          "name": "LIVING ROOM",
+          "length": 17,
+          "breadth": 11.4167,
+          "areaFt2": 194.08,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "2ba45037-bdee-427e-8db3-d34219597baa",
+          "name": "OPEN LOBBY",
+          "length": 20.5,
+          "breadth": 11.75,
+          "areaFt2": 240.88,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "7ba0bb86-432f-41c5-8fad-44d21883eccc",
+          "name": "FOYER",
+          "length": 5,
+          "breadth": 6.75,
+          "areaFt2": 33.75,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "3e424e83-99c1-455a-98b5-e5f567d20013",
+          "name": "KITCHEN+DINING",
+          "length": 9.5,
+          "breadth": 18.3333,
+          "areaFt2": 174.17,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "c25a60af-4357-4372-96f9-bd804c5d54fe",
+          "name": "LIVING ROOM",
+          "length": 12.1667,
+          "breadth": 18.3333,
+          "areaFt2": 223.06,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "3c1a3ff7-6f23-45ac-b2b8-1ed923d5adf4",
+          "name": "FOYER",
+          "length": 7.5,
+          "breadth": 11.8333,
+          "areaFt2": 88.75,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "2a2002c0-421f-4e65-943a-6f870ab1d293",
+          "name": "FOYER",
+          "length": 7.5,
+          "breadth": 11.5,
+          "areaFt2": 86.25,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "50628ba5-a106-435d-aa49-b7f3599e2807",
+          "name": "KITCHEN+DINING",
+          "length": 6.75,
+          "breadth": 18.3333,
+          "areaFt2": 123.75,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "40962123-c26e-40ad-ae71-41bd70a80642",
+          "name": "LIVING ROOM",
+          "length": 10.25,
+          "breadth": 17.25,
+          "areaFt2": 176.81,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "dc83ad34-cb40-4ba4-84b1-466a0e8b9b99",
+          "name": "BEDROOM",
+          "length": 15.9167,
+          "breadth": 17.1667,
+          "areaFt2": 273.24,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "46ba86e5-bb20-4d5f-87ea-69116685b461",
+          "name": "BEDROOM",
+          "length": 16.5,
+          "breadth": 17.25,
+          "areaFt2": 284.63,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "4c1b875f-996c-47e0-882f-7607bcfcabf1",
+          "name": "WATER CLOSET",
+          "length": 6.8333,
+          "breadth": 13.0833,
+          "areaFt2": 89.4,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "2a9f4e83-7608-42e5-9531-e60d8d697200",
+          "name": "WATER CLOSET",
+          "length": 6.8333,
+          "breadth": 13.0833,
+          "areaFt2": 89.4,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "acb4b2cc-b8e2-4e84-8258-963459867ec1",
+          "name": "WALK IN CLOSET",
+          "length": 6.0833,
+          "breadth": 10.1667,
+          "areaFt2": 61.85,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "6ede665b-55d7-48b2-9828-66716c2bf2f0",
+          "name": "WALK IN CLOSET",
+          "length": 5.0833,
+          "breadth": 10.1667,
+          "areaFt2": 51.68,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "0d8fa281-d784-4974-8d8c-0f7f023c2d6f",
+          "name": "WALK IN CLOSET",
+          "length": 5,
+          "breadth": 9,
+          "areaFt2": 45,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "519d6797-0e34-45d3-b27f-cc6abd344d62",
+          "name": "BEDROOM",
+          "length": 21.25,
+          "breadth": 13.75,
+          "areaFt2": 292.19,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "75597311-9898-42e6-968a-35af9d6023ff",
+          "name": "BEDROOM",
+          "length": 16.5,
+          "breadth": 17.25,
+          "areaFt2": 284.63,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "23b5d5f9-75de-4314-b5dd-31b69339b4e7",
+          "name": "ATT. W/C",
+          "length": 5.6667,
+          "breadth": 8,
+          "areaFt2": 45.33,
+          "areaOverridden": false,
+          "source": "label"
+        }
+      ]
+    },
+    {
+      "id": "d01022ec-0a80-4337-a515-32ab50fa2f95",
+      "name": "SECOND, THIRD AND FOURTH FLOOR",
+      "merged": true,
+      "info": "(Area = 4788.00 Sq.ft) (Balcony Area = 278.00 Sq.ft) (Area = 5066.00 Sq.ft)",
+      "rooms": [
+        {
+          "id": "6e2ce6b1-f496-43cc-b3d5-e7059391fe5d",
+          "name": "KITCHEN+DINING",
+          "length": 17,
+          "breadth": 9.8333,
+          "areaFt2": 167.17,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "cc7d65ae-ae0e-477a-a7bd-07001bb0be97",
+          "name": "C. W/C",
+          "length": 5,
+          "breadth": 9.5,
+          "areaFt2": 47.5,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "b5060e85-b084-4fad-b6f3-04a82fa4fc86",
+          "name": "ATT. W/C",
+          "length": 5,
+          "breadth": 10.5,
+          "areaFt2": 52.5,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "ed2182ed-f9e8-42ef-8b0d-e6876a505cd4",
+          "name": "ELECTRICAL ROOM",
+          "length": 5,
+          "breadth": 13,
+          "areaFt2": 65,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "7e6296b6-7170-43fc-9a32-befbdbbbb681",
+          "name": "BEDROOM",
+          "length": 15.1667,
+          "breadth": 14.5,
+          "areaFt2": 219.92,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "96ebbf58-195f-4541-8bba-03164f1a59a0",
+          "name": "LIFT",
+          "length": 7.4167,
+          "breadth": 5.9167,
+          "areaFt2": 43.88,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "813bf347-87c7-4e13-8881-46fc2850aca0",
+          "name": "LIVING ROOM",
+          "length": 17,
+          "breadth": 11.4167,
+          "areaFt2": 194.08,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "67cfab15-6377-4a16-bf81-187b96db6f7f",
+          "name": "FOYER",
+          "length": 5,
+          "breadth": 6.75,
+          "areaFt2": 33.75,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "23bfcbc4-5407-4774-b491-c9e1f7f1b552",
+          "name": "OPEN LOBBY",
+          "length": 20.5,
+          "breadth": 11.75,
+          "areaFt2": 240.88,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "d6ca937d-32b1-4ff4-a524-10b735fcff98",
+          "name": "KITCHEN+DINING",
+          "length": 9.5,
+          "breadth": 18.3333,
+          "areaFt2": 174.17,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "f63b1ca6-c430-4d01-b07c-23c3916001fe",
+          "name": "LIVING ROOM",
+          "length": 12.1667,
+          "breadth": 18.3333,
+          "areaFt2": 223.06,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "8897009b-9ff7-4be6-bfc6-f45e9f689ee8",
+          "name": "FOYER",
+          "length": 7.5,
+          "breadth": 11.8333,
+          "areaFt2": 88.75,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "38a25727-f53d-459d-b401-ab791593bb2d",
+          "name": "FOYER",
+          "length": 7.5,
+          "breadth": 11.5,
+          "areaFt2": 86.25,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "a93391ca-9b61-4a6f-9c66-711a29aeba7b",
+          "name": "KITCHEN+DINING",
+          "length": 6.75,
+          "breadth": 18.3333,
+          "areaFt2": 123.75,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "d8245ba0-b8cc-411e-b8be-b60ca0509edb",
+          "name": "LIVING ROOM",
+          "length": 10.25,
+          "breadth": 17.25,
+          "areaFt2": 176.81,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "a3a0f6e3-0285-4e7c-b90d-cc5af65f3d20",
+          "name": "BEDROOM",
+          "length": 15.9167,
+          "breadth": 17.1667,
+          "areaFt2": 273.24,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "05a84fb6-6b4a-41ca-94a9-e988032c7a2a",
+          "name": "BEDROOM",
+          "length": 16.5,
+          "breadth": 17.25,
+          "areaFt2": 284.63,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "b2aabcd7-dfc3-40bd-901a-10785b83f8e9",
+          "name": "WATER CLOSET",
+          "length": 6.8333,
+          "breadth": 13.0833,
+          "areaFt2": 89.4,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "d6abc286-9330-43af-9304-d40aa06fc9c8",
+          "name": "WATER CLOSET",
+          "length": 6.8333,
+          "breadth": 13.0833,
+          "areaFt2": 89.4,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "38a5dcd5-0978-423b-9d38-0905ca6aee75",
+          "name": "WALK IN CLOSET",
+          "length": 6.0833,
+          "breadth": 10.1667,
+          "areaFt2": 61.85,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "96bc72a3-545d-4c10-97d9-1b1283a8776c",
+          "name": "WALK IN CLOSET",
+          "length": 5.0833,
+          "breadth": 10.1667,
+          "areaFt2": 51.68,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "75069fe0-b247-4ca6-9a62-bf003ff3d67b",
+          "name": "WALK IN CLOSET",
+          "length": 5,
+          "breadth": 9,
+          "areaFt2": 45,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "bc493bbf-d396-4730-a228-c28b422750dd",
+          "name": "BEDROOM",
+          "length": 21.25,
+          "breadth": 13.75,
+          "areaFt2": 292.19,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "8b8a4d35-053d-468b-9db4-11b2f52ea516",
+          "name": "BEDROOM",
+          "length": 16.5,
+          "breadth": 17.25,
+          "areaFt2": 284.63,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "2591ed8a-99b3-4ccd-9b63-936c16f3f32c",
+          "name": "ATT. W/C",
+          "length": 5.6667,
+          "breadth": 8,
+          "areaFt2": 45.33,
+          "areaOverridden": false,
+          "source": "label"
+        }
+      ]
+    },
+    {
+      "id": "049f1e68-6bae-4f28-b604-eee5103c0b13",
+      "name": "TOP FLOOR",
+      "merged": false,
+      "info": "(Area = 441.00 Sq.ft)",
+      "rooms": [
+        {
+          "id": "9946b348-0c2e-4f2f-86bf-4a99f8aa077d",
+          "name": "LIFT",
+          "length": 7.4167,
+          "breadth": 5.9167,
+          "areaFt2": 43.88,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "09374943-1c91-4c2b-a1ef-4aee256f82f1",
+          "name": "ELECTRICAL ROOM",
+          "length": 12.3333,
+          "breadth": 6.5833,
+          "areaFt2": 81.19,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "6c3c420e-d231-44c4-bd68-71be0b818300",
+          "name": "VOID SHAFT",
+          "length": 7.5833,
+          "breadth": 4.9167,
+          "areaFt2": 37.28,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "007f4d1d-b08e-4077-850a-f02e1ab5b80c",
+          "name": "VOID SHAFT",
+          "length": 7.5833,
+          "breadth": 4.9167,
+          "areaFt2": 37.28,
+          "areaOverridden": false,
+          "source": "label"
+        }
+      ]
+    }
+  ],
+  "updatedAt": "2026-10-29T06:12:32.168Z"
+}
