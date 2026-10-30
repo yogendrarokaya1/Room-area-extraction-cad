@@ -17,10 +17,17 @@ export type FloorGroup = {
   rooms: Room[];
 };
 
+export type DrawingUnits = {
+  factorToFeet: number;
+  unitName: string;
+  system: "metric" | "imperial";
+};
+
 export type Drawing = {
   id: string;
   originalName: string;
   uploadedAt: string;
+  units?: DrawingUnits;
   stats: {
     entities: number;
     layers: number;
@@ -28,6 +35,8 @@ export type Drawing = {
     textEntities: number;
     roomLabels: number;
     floorTitles: number;
+    unitSystem?: string;
+    unitName?: string;
   };
   groups: FloorGroup[];
 };

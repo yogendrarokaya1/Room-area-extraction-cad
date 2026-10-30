@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import type { FloorGroup, Room } from "@/lib/api";
-import { SQFT_TO_SQM, round2, round4 } from "@/lib/units";
+import { SQFT_TO_SQM, round2, round4, formatMeters } from "@/lib/units";
 import { AreaInput, FeetInput } from "./FieldInputs";
 
 const ROOM_NAMES = [
@@ -142,19 +142,35 @@ export function RoomTable({
                     <tr key={r.id} className="border-t border-line/60">
                       <td className="px-4 py-2 text-muted">{sn}</td>
                       <td className="px-4 py-2">
-                        <input
-                          aria-label={`Room name, ${g.name} ${sn}`}
-                          list="room-names"
-                          value={r.name}
-                          onChange={(e) => patchRoom(g.id, r.id, { name: e.target.value })}
-                          className="w-full rounded-lg border border-line bg-field px-3 py-2 text-sm text-fg"
-                        />
+                        <div className="flex items-center gap-2">
+                          <input
+                            aria-label={`Room name, ${g.name} ${sn}`}
+                            list="room-names"
+                            value={r.name}
+                            onChange={(e) => patchRoom(g.id, r.id, { name: e.target.value })}
+                            className="w-full rounded-lg border border-line bg-field px-3 py-2 text-sm text-fg"
+                          />
+                          {r.source === "measured" && (
+                            <span
+                              className="shrink-0 rounded bg-accent/15 px-1.5 py-0.5 text-[10px] font-medium text-accent"
+                              title="Auto-measured from CAD boundary geometry"
+                            >
+                              Measured
+                            </span>
+                          )}
+                        </div>
                       </td>
                       <td className="px-4 py-2">
                         <FeetInput label={`Length, ${g.name} ${sn}`} value={r.length} onCommit={(f) => setSize(g, r, "length", f)} />
+                        {r.length > 0 && (
+                          <div className="mt-0.5 text-right font-mono text-[10px] text-muted">{formatMeters(r.length)}</div>
+                        )}
                       </td>
                       <td className="px-4 py-2">
                         <FeetInput label={`Breadth, ${g.name} ${sn}`} value={r.breadth} onCommit={(f) => setSize(g, r, "breadth", f)} />
+                        {r.breadth > 0 && (
+                          <div className="mt-0.5 text-right font-mono text-[10px] text-muted">{formatMeters(r.breadth)}</div>
+                        )}
                       </td>
                       <td className="px-4 py-2">
                         <AreaInput

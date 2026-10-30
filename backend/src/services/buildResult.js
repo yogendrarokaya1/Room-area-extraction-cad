@@ -1,6 +1,6 @@
 import { randomUUID } from 'node:crypto';
 import { parseDwg } from './dwgParser.js';
-import { extractRoomLabels } from './roomExtractor.js';
+import { extractRoomLabels, extractLegendRooms } from './roomExtractor.js';
 import { findPlanTitles, assignRoomsToPlans } from './floorDetector.js';
 import { round2 } from '../utils/feet.js';
 
@@ -12,17 +12,34 @@ const makeRoom = (r) => ({
   name: r.name,
   length: r.length,
   breadth: r.breadth,
-  areaFt2: round2(r.length * r.breadth),
+  areaFt2: r.areaFt2 > 0 ? r.areaFt2 : round2(r.length * r.breadth),
   areaOverridden: false,
-  source: 'label',
+  source: r.source === 'measured' ? 'measured' : 'label',
 });
 
 export async function buildResult({ id, originalName, buffer }) {
-  const { texts, stats } = await parseDwg(buffer);
+  const { texts, lines, units, stats } = await parseDwg(buffer);
 
-  const labels = extractRoomLabels(texts);
+  // 1. Primary path (Type 1): extract rooms with written dimension labels
+  let rooms = extractRoomLabels(texts);
   const titles = findPlanTitles(texts);
-  const { groups, unassigned } = assignRoomsToPlans(labels, titles);
+  const isType1 = rooms.length > 0;
+  let maxDx = 800;
+  let maxDy = 1500;
+
+  // 2. Secondary path (Type 2): if no written room dimensions, use legend + markers + ray-casting
+  if (!isType1) {
+    rooms = extractLegendRooms({ texts, lines, units });
+    const scaleFactor = units.system === 'metric' ? 304.8 : 1;
+    maxDx = 800 * scaleFactor;
+    maxDy = 1500 * scaleFactor;
+  }
+
+  // 3. Assign rooms to floor plans
+  // For metric drawings, allow markers to be up to 5000 mm below their floor title
+  // (some title blocks use ATTRIB text that may sit slightly below the annotation)
+  const maxDyNeg = units.system === 'metric' ? 5000 : 5;
+  const { groups, unassigned } = assignRoomsToPlans(rooms, titles, maxDx, maxDy, maxDyNeg);
 
   const out = groups.map((g) => ({
     id: randomUUID(),
@@ -42,11 +59,38 @@ export async function buildResult({ id, originalName, buffer }) {
     });
   }
 
+  // Fallback: If drawing had geometry but groups ended up empty
+  if (out.length === 0 && lines.length > 0) {
+    out.push({
+      id: randomUUID(),
+      name: 'Floor 1',
+      merged: false,
+      info: 'Default floor',
+      rooms: [
+        makeRoom({
+          name: 'Room 1',
+          length: 0,
+          breadth: 0,
+          areaFt2: 0,
+          source: 'label',
+        }),
+      ],
+    });
+  }
+
   return {
     id,
     originalName,
     uploadedAt: new Date().toISOString(),
-    stats: { ...stats, textEntities: texts.length, roomLabels: labels.length, floorTitles: titles.length },
+    units,
+    stats: {
+      ...stats,
+      textEntities: texts.length,
+      roomLabels: rooms.length,
+      floorTitles: titles.length,
+      unitSystem: units.system,
+      unitName: units.unitName,
+    },
     groups: out,
   };
 }

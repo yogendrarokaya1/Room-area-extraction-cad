@@ -1,6 +1,9 @@
-// All values in the app are stored as decimal feet.
+// All values in the app are stored as decimal feet internally.
 
 export const SQFT_TO_SQM = 0.09290304;
+export const SQM_TO_SQFT = 1 / SQFT_TO_SQM;
+export const FEET_TO_METERS = 0.3048;
+export const METERS_TO_FEET = 1 / 0.3048;
 
 export const round2 = (n: number) => Math.round(n * 100) / 100;
 export const round4 = (n: number) => Math.round(n * 10000) / 10000;
@@ -13,6 +16,11 @@ export function formatFeetInches(feet: number): string {
   const inch = totalInches - ft * 12;
   const inchText = Number.isInteger(inch) ? String(inch) : inch.toFixed(1);
   return `${ft}'-${inchText}"`;
+}
+
+export function formatMeters(feet: number): string {
+  if (!Number.isFinite(feet) || feet <= 0) return "";
+  return `${(feet * FEET_TO_METERS).toFixed(2)}m`;
 }
 
 /**

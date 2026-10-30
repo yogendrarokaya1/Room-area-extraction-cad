@@ -70,7 +70,14 @@ export function ResultsView({ id }: { id: string }) {
       <header className="mb-6 flex flex-wrap items-end justify-between gap-4">
         <div>
           <Link href="/" className="text-sm text-accent hover:underline">← Upload another drawing</Link>
-          <h1 className="mt-2 text-2xl font-semibold">{drawing?.originalName}</h1>
+          <div className="mt-2 flex items-center gap-3">
+            <h1 className="text-2xl font-semibold">{drawing?.originalName}</h1>
+            {drawing?.stats?.unitName && (
+              <span className="rounded-md border border-line bg-band px-2 py-0.5 text-xs font-mono text-muted">
+                {drawing.stats.unitName.toUpperCase()} ({drawing.stats.unitSystem ?? "detected"})
+              </span>
+            )}
+          </div>
           <p className="mt-1 text-sm text-muted">
             {groups.length} {groups.length === 1 ? "floor" : "floors"} · {roomCount} {roomCount === 1 ? "room" : "rooms"} · {total.toLocaleString("en-US", { maximumFractionDigits: 2 })} ft² (
             {(total * SQFT_TO_SQM).toLocaleString("en-US", { maximumFractionDigits: 2 })} m²)
@@ -105,10 +112,10 @@ export function ResultsView({ id }: { id: string }) {
       </header>
 
       <p className="mb-5 rounded-lg border border-line bg-panel px-4 py-3 text-sm text-muted">
-        Sizes come from the room labels written on the drawing, and area is length × breadth. Edit any
-        size to recalculate. Type an area directly to override it, or add parts together the way
-        the client’s sheet does (214.5+891.87). Rooms without a written size, such as parking, are
-        not listed: use “Add room” and type their measured area. Floor names can be renamed.
+        Rooms with written dimensions are extracted directly from labels; rooms with legend markers
+        or unlabelled spaces are auto-measured from CAD wall boundaries. Edit any size to recalculate,
+        override an area directly, or add parts together (e.g. 214.5+891.87). Floor names and room names
+        can be edited freely.
       </p>
 
       <RoomTable

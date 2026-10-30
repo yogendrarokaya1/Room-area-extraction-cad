@@ -1,24 +1,32 @@
 {
   "id": "2a4828f9-8518-4bdf-a004-d0d1979a723e",
   "originalName": "FINAL FOR JURY 10-7.dwg",
-  "uploadedAt": "2026-10-29T05:51:57.471Z",
+  "uploadedAt": "2026-10-30T07:37:26.603Z",
+  "units": {
+    "factorToFeet": 1,
+    "unitName": "ft",
+    "system": "imperial"
+  },
   "stats": {
     "entities": 8712,
     "layers": 43,
     "insUnits": 2,
+    "boundaryLines": 7939,
     "textEntities": 797,
     "roomLabels": 79,
-    "floorTitles": 7
+    "floorTitles": 7,
+    "unitSystem": "imperial",
+    "unitName": "ft"
   },
   "groups": [
     {
-      "id": "65333b53-04aa-4982-9bd1-b6c23e87aad4",
+      "id": "ad21dbe6-92d3-44cc-bb43-9dd20b74f9af",
       "name": "BASEMENT FLOOR",
       "merged": false,
       "info": "(Area = 6558.00 Sq.ft)",
       "rooms": [
         {
-          "id": "f8bd5f85-3897-4ca1-8725-1f362e1c9037",
+          "id": "7ff4b6b1-994e-43ac-96c2-c73bbd736cae",
           "name": "LIFT",
           "length": 7.4167,
           "breadth": 5.9167,
@@ -29,14 +37,14 @@
       ]
     },
     {
-      "id": "8d8c2a5f-de2f-46aa-9eae-c112f9eae567",
+      "id": "71bc069a-5414-4d90-82ad-dc0ff43113e6",
       "name": "GROUND FLOOR",
       "merged": false,
       "info": "(Area = 4788.00 Sq.ft)",
       "rooms": [
         {
-          "id": "d0203341-5e24-47c6-b13e-015bc5c3e0ef",
-          "name": "Kitchen+Dining",
+          "id": "53f3f613-1262-4865-ba0a-85c6cf15e845",
+          "name": "KITCHEN+DINING",
           "length": 17,
           "breadth": 9.8333,
           "areaFt2": 167.17,
@@ -44,7 +52,7 @@
           "source": "label"
         },
         {
-          "id": "5390f50a-b378-4c9e-a452-3a187ad48603",
+          "id": "4edcba43-b498-4364-8246-2aa827fb64d0",
           "name": "C. W/C",
           "length": 5,
           "breadth": 9.5,
@@ -53,7 +61,7 @@
           "source": "label"
         },
         {
-          "id": "14591756-7047-48db-853d-e54f7f08d150",
+          "id": "ceaf5e47-1c84-43db-8356-f30512115efe",
           "name": "ATT. W/C",
           "length": 5,
           "breadth": 10.5,
@@ -62,7 +70,7 @@
           "source": "label"
         },
         {
-          "id": "b0143592-daaa-49c6-8f6a-c76546f277cc",
+          "id": "c7895dc3-6d0f-4827-8a13-aa4fb67c0a36",
           "name": "ELECTRICAL ROOM",
           "length": 5,
           "breadth": 13,
@@ -71,7 +79,7 @@
           "source": "label"
         },
         {
-          "id": "472fc68e-5569-4f4b-8fa7-72f5b1eae637",
+          "id": "2288c249-7343-43b0-b02e-71cf075fc232",
           "name": "BEDROOM",
           "length": 15.1667,
           "breadth": 14.5,
@@ -80,7 +88,7 @@
           "source": "label"
         },
         {
-          "id": "3f0a4338-be9c-4787-9c82-2e91af9ceda4",
+          "id": "f3ddd22f-7019-47b8-9181-ae270c19c6f8",
           "name": "LIFT",
           "length": 7.4167,
           "breadth": 5.9167,
@@ -89,7 +97,7 @@
           "source": "label"
         },
         {
-          "id": "3ccf2498-5e36-4d14-a6fb-45a0e872d378",
+          "id": "f905eb06-9da8-4b2a-a99c-f234f99b35f2",
           "name": "LIVING ROOM",
           "length": 17,
           "breadth": 11.4167,
@@ -98,7 +106,7 @@
           "source": "label"
         },
         {
-          "id": "6ed3d886-bcfd-4d19-ae5e-682949172359",
+          "id": "9e9b67e3-58f0-4b80-b7fb-fe3173f6fe99",
           "name": "FOYER",
           "length": 5,
           "breadth": 6.75,
@@ -107,7 +115,7 @@
           "source": "label"
         },
         {
-          "id": "581b2521-5785-4e19-acf9-1b26e1d18c81",
+          "id": "e80152b9-c8dd-40d3-84d6-fb424245760e",
           "name": "OPEN LOBBY",
           "length": 20.5,
           "breadth": 11.75,
@@ -116,7 +124,7 @@
           "source": "label"
         },
         {
-          "id": "ed9cba12-ec92-473f-9996-c661d4b13d71",
+          "id": "73567b58-9e84-421e-99e7-5e790c2db74a",
           "name": "KITCHEN+DINING",
           "length": 9.5,
           "breadth": 18.3333,
@@ -125,7 +133,7 @@
           "source": "label"
         },
         {
-          "id": "235214a9-926c-4f00-8fe4-c8006844dfa1",
+          "id": "1b77eb2f-a11b-4fc1-b052-1399ed0e1331",
           "name": "LIVING ROOM",
           "length": 12.1667,
           "breadth": 18.3333,
@@ -134,7 +142,7 @@
           "source": "label"
         },
         {
-          "id": "4068d5a9-a4f4-444c-85c7-46f17940ae3d",
+          "id": "dee10fe0-c6fe-4467-bb85-3eb774b4e64f",
           "name": "FOYER",
           "length": 7.5,
           "breadth": 11.8333,
@@ -143,7 +151,7 @@
           "source": "label"
         },
         {
-          "id": "2a2f6301-ca28-45e4-a9f4-0dc8b51239ce",
+          "id": "6bf0e16e-3a6d-4c6b-afb1-d3e35b5e188b",
           "name": "FOYER",
           "length": 7.5,
           "breadth": 11.5,
@@ -152,7 +160,7 @@
           "source": "label"
         },
         {
-          "id": "adce73f0-b1c5-400a-a6dc-beea18804295",
+          "id": "9b2408e3-8251-4dcd-94fb-6b58e234af27",
           "name": "KITCHEN+DINING",
           "length": 6.75,
           "breadth": 18.3333,
@@ -161,7 +169,7 @@
           "source": "label"
         },
         {
-          "id": "8b214511-b9df-4efc-b60c-2383bb61eaf4",
+          "id": "b03347ae-5f6d-482f-867c-c55a2b69a9d6",
           "name": "LIVING ROOM",
           "length": 10.25,
           "breadth": 17.25,
@@ -170,7 +178,7 @@
           "source": "label"
         },
         {
-          "id": "507bc32a-3c7d-485c-ada5-dad2db7216b0",
+          "id": "ed4ac3b6-41b3-4081-a55e-107d8ee5764d",
           "name": "BEDROOM",
           "length": 15.9167,
           "breadth": 17.1667,
@@ -179,7 +187,7 @@
           "source": "label"
         },
         {
-          "id": "30e40bb6-e014-4302-85f2-d6375dedbf3d",
+          "id": "dbfd689a-aa5a-42c7-be99-b1dc11f51d58",
           "name": "BEDROOM",
           "length": 16.5,
           "breadth": 17.25,
@@ -188,7 +196,7 @@
           "source": "label"
         },
         {
-          "id": "0aa84539-a8a5-48aa-b5bf-deb245ef11d5",
+          "id": "5fa80ee4-e6e8-4fe3-a88d-c439b7424967",
           "name": "C. W/C",
           "length": 6.8333,
           "breadth": 13.0833,
@@ -197,7 +205,7 @@
           "source": "label"
         },
         {
-          "id": "7f6ad235-b4fd-418d-8299-811274776548",
+          "id": "07f17b88-be76-409a-9275-cdfe1dfc76c8",
           "name": "C. W/C",
           "length": 6.8333,
           "breadth": 13.0833,
@@ -206,7 +214,7 @@
           "source": "label"
         },
         {
-          "id": "4e3f583c-5ec1-4e2e-93c5-5b5256b986d3",
+          "id": "9300576f-2697-4b6b-a2ad-409d5415605a",
           "name": "WALK IN CLOSET",
           "length": 6.0833,
           "breadth": 10.1667,
@@ -215,7 +223,7 @@
           "source": "label"
         },
         {
-          "id": "4a92f266-9709-4d3a-baca-45bf79f4ef77",
+          "id": "1eb8d87a-04d1-40f3-8db9-a457787c1977",
           "name": "WALK IN CLOSET",
           "length": 5.0833,
           "breadth": 10.1667,
@@ -224,7 +232,7 @@
           "source": "label"
         },
         {
-          "id": "a982934f-1f6f-4fd8-a34c-de124c34ff8b",
+          "id": "3c0dce49-2e26-41f7-9236-81281dac3211",
           "name": "SHOP 1",
           "length": 21.25,
           "breadth": 17.25,
@@ -233,7 +241,7 @@
           "source": "label"
         },
         {
-          "id": "89d305a4-14d6-41a2-85b4-74909e4c755c",
+          "id": "da75e664-3f69-489f-bc8f-ad7770682590",
           "name": "SHOP 2",
           "length": 24.9167,
           "breadth": 17.25,
@@ -244,13 +252,13 @@
       ]
     },
     {
-      "id": "d6e99513-d1c9-4d09-ab0b-e632d65efcf9",
+      "id": "847a5304-ece6-421b-9233-376556ec2026",
       "name": "FIRST FLOOR",
       "merged": false,
       "info": "(Area = 4788.00 Sq.ft) (Balcony Area = 278.00 Sq.ft) (Area = 5066.00 Sq.ft)",
       "rooms": [
         {
-          "id": "ba657870-4286-4829-b7a9-89ce2bac731f",
+          "id": "6c54e204-74db-4d57-8595-8925ab000c6d",
           "name": "KITCHEN+DINING",
           "length": 17,
           "breadth": 9.8333,
@@ -259,7 +267,7 @@
           "source": "label"
         },
         {
-          "id": "34dd0441-d02f-4601-aa31-42fb6a56c30c",
+          "id": "d8d38921-7231-4401-a2f6-cb1c9457c95f",
           "name": "C. W/C",
           "length": 5,
           "breadth": 9.5,
@@ -268,7 +276,7 @@
           "source": "label"
         },
         {
-          "id": "aacaf111-0fd8-454a-80f1-f787871dc741",
+          "id": "4f1aa75f-31d1-42b8-ae78-d94adc83311b",
           "name": "ELECTRICAL ROOM",
           "length": 5,
           "breadth": 13,
@@ -277,7 +285,7 @@
           "source": "label"
         },
         {
-          "id": "fd1d108f-c80a-472c-bbf3-2d9446ce8b5e",
+          "id": "4510edb5-d897-4f2d-a9b5-c2a339f0d487",
           "name": "ATT. W/C",
           "length": 5,
           "breadth": 10.5,
@@ -286,7 +294,7 @@
           "source": "label"
         },
         {
-          "id": "a0095938-5a94-42d4-b285-c8c3c4c77a5c",
+          "id": "1474efe4-9648-4e39-9460-e6b7c8f3bffa",
           "name": "ELECTRICAL ROOM",
           "length": 5,
           "breadth": 13,
@@ -295,7 +303,7 @@
           "source": "label"
         },
         {
-          "id": "2f30ca63-87b6-48ec-a6b5-998324a8f22c",
+          "id": "9289f3c5-692f-4c37-b148-5b514c997f5f",
           "name": "BEDROOM",
           "length": 15.1667,
           "breadth": 14.5,
@@ -304,7 +312,7 @@
           "source": "label"
         },
         {
-          "id": "9d5cfa53-9c20-4112-b3b5-625b78535215",
+          "id": "a72df4b9-7f26-44e8-9095-adac53093a49",
           "name": "LIFT",
           "length": 7.4167,
           "breadth": 5.9167,
@@ -313,7 +321,7 @@
           "source": "label"
         },
         {
-          "id": "7c186d57-02bc-45eb-80e8-c10e28537b48",
+          "id": "12a3b72e-bd80-40f8-9d12-bad3b779e3cd",
           "name": "LIVING ROOM",
           "length": 17,
           "breadth": 11.4167,
@@ -322,7 +330,7 @@
           "source": "label"
         },
         {
-          "id": "2ba45037-bdee-427e-8db3-d34219597baa",
+          "id": "adf55226-1603-4daa-9475-ba4584dd4996",
           "name": "OPEN LOBBY",
           "length": 20.5,
           "breadth": 11.75,
@@ -331,7 +339,7 @@
           "source": "label"
         },
         {
-          "id": "7ba0bb86-432f-41c5-8fad-44d21883eccc",
+          "id": "ecfd59d2-d812-4ace-ac86-b8aabb1ab248",
           "name": "FOYER",
           "length": 5,
           "breadth": 6.75,
@@ -340,7 +348,7 @@
           "source": "label"
         },
         {
-          "id": "3e424e83-99c1-455a-98b5-e5f567d20013",
+          "id": "e13085e2-35f2-44e7-81ae-e695439546aa",
           "name": "KITCHEN+DINING",
           "length": 9.5,
           "breadth": 18.3333,
@@ -349,7 +357,7 @@
           "source": "label"
         },
         {
-          "id": "c25a60af-4357-4372-96f9-bd804c5d54fe",
+          "id": "5f0d340e-0752-4ffb-a205-44c4e3414309",
           "name": "LIVING ROOM",
           "length": 12.1667,
           "breadth": 18.3333,
@@ -358,7 +366,7 @@
           "source": "label"
         },
         {
-          "id": "3c1a3ff7-6f23-45ac-b2b8-1ed923d5adf4",
+          "id": "bd03f093-f05d-4c32-ac29-bc832650cf6a",
           "name": "FOYER",
           "length": 7.5,
           "breadth": 11.8333,
@@ -367,7 +375,7 @@
           "source": "label"
         },
         {
-          "id": "2a2002c0-421f-4e65-943a-6f870ab1d293",
+          "id": "6e1fdb34-0541-4221-8953-489b8578e3bb",
           "name": "FOYER",
           "length": 7.5,
           "breadth": 11.5,
@@ -376,7 +384,7 @@
           "source": "label"
         },
         {
-          "id": "50628ba5-a106-435d-aa49-b7f3599e2807",
+          "id": "1e8eefb9-5f2c-450b-8eb9-6bf30742709e",
           "name": "KITCHEN+DINING",
           "length": 6.75,
           "breadth": 18.3333,
@@ -385,7 +393,7 @@
           "source": "label"
         },
         {
-          "id": "40962123-c26e-40ad-ae71-41bd70a80642",
+          "id": "793387c4-8c02-4a6d-b598-b3e98912435b",
           "name": "LIVING ROOM",
           "length": 10.25,
           "breadth": 17.25,
@@ -394,7 +402,7 @@
           "source": "label"
         },
         {
-          "id": "dc83ad34-cb40-4ba4-84b1-466a0e8b9b99",
+          "id": "e83a8e61-b4bd-4e41-90f5-b3d61252d1bf",
           "name": "BEDROOM",
           "length": 15.9167,
           "breadth": 17.1667,
@@ -403,7 +411,7 @@
           "source": "label"
         },
         {
-          "id": "46ba86e5-bb20-4d5f-87ea-69116685b461",
+          "id": "19a2f631-6dd8-49e8-beff-8e8b982cf01a",
           "name": "BEDROOM",
           "length": 16.5,
           "breadth": 17.25,
@@ -412,7 +420,7 @@
           "source": "label"
         },
         {
-          "id": "4c1b875f-996c-47e0-882f-7607bcfcabf1",
+          "id": "cbd6e03d-eaad-41a8-a4e4-508e057ba2cd",
           "name": "WATER CLOSET",
           "length": 6.8333,
           "breadth": 13.0833,
@@ -421,7 +429,7 @@
           "source": "label"
         },
         {
-          "id": "2a9f4e83-7608-42e5-9531-e60d8d697200",
+          "id": "1ac67a55-d431-4fa2-898e-3100ea1edc7d",
           "name": "WATER CLOSET",
           "length": 6.8333,
           "breadth": 13.0833,
@@ -430,7 +438,7 @@
           "source": "label"
         },
         {
-          "id": "acb4b2cc-b8e2-4e84-8258-963459867ec1",
+          "id": "238db853-2191-499f-abfd-4325321fe35f",
           "name": "WALK IN CLOSET",
           "length": 6.0833,
           "breadth": 10.1667,
@@ -439,7 +447,7 @@
           "source": "label"
         },
         {
-          "id": "6ede665b-55d7-48b2-9828-66716c2bf2f0",
+          "id": "460e2082-d858-47ee-8e60-35f93d03822b",
           "name": "WALK IN CLOSET",
           "length": 5.0833,
           "breadth": 10.1667,
@@ -448,7 +456,7 @@
           "source": "label"
         },
         {
-          "id": "0d8fa281-d784-4974-8d8c-0f7f023c2d6f",
+          "id": "8c67306f-046e-4043-9241-a6a7e0713f2d",
           "name": "WALK IN CLOSET",
           "length": 5,
           "breadth": 9,
@@ -457,7 +465,7 @@
           "source": "label"
         },
         {
-          "id": "519d6797-0e34-45d3-b27f-cc6abd344d62",
+          "id": "010ff832-8c5a-411a-b90d-ac8d99fbec28",
           "name": "BEDROOM",
           "length": 21.25,
           "breadth": 13.75,
@@ -466,7 +474,7 @@
           "source": "label"
         },
         {
-          "id": "75597311-9898-42e6-968a-35af9d6023ff",
+          "id": "28a279e3-017a-459a-8690-5479b6156591",
           "name": "BEDROOM",
           "length": 16.5,
           "breadth": 17.25,
@@ -475,7 +483,7 @@
           "source": "label"
         },
         {
-          "id": "23b5d5f9-75de-4314-b5dd-31b69339b4e7",
+          "id": "080d496e-08d9-4f12-aa9a-ab8f586a1c36",
           "name": "ATT. W/C",
           "length": 5.6667,
           "breadth": 8,
@@ -486,13 +494,13 @@
       ]
     },
     {
-      "id": "d01022ec-0a80-4337-a515-32ab50fa2f95",
+      "id": "f5144d63-3b6b-4ff3-afc2-a5963c756a55",
       "name": "SECOND, THIRD AND FOURTH FLOOR",
       "merged": true,
       "info": "(Area = 4788.00 Sq.ft) (Balcony Area = 278.00 Sq.ft) (Area = 5066.00 Sq.ft)",
       "rooms": [
         {
-          "id": "6e2ce6b1-f496-43cc-b3d5-e7059391fe5d",
+          "id": "9608c051-d20f-4857-ab72-6a05ebba0acc",
           "name": "KITCHEN+DINING",
           "length": 17,
           "breadth": 9.8333,
@@ -501,7 +509,7 @@
           "source": "label"
         },
         {
-          "id": "cc7d65ae-ae0e-477a-a7bd-07001bb0be97",
+          "id": "ab9e7e29-cbe6-449f-bdf1-11bd166fdb97",
           "name": "C. W/C",
           "length": 5,
           "breadth": 9.5,
@@ -510,7 +518,7 @@
           "source": "label"
         },
         {
-          "id": "b5060e85-b084-4fad-b6f3-04a82fa4fc86",
+          "id": "ce93cd02-f42b-4c08-b22e-5cd55e66eb35",
           "name": "ATT. W/C",
           "length": 5,
           "breadth": 10.5,
@@ -519,7 +527,7 @@
           "source": "label"
         },
         {
-          "id": "ed2182ed-f9e8-42ef-8b0d-e6876a505cd4",
+          "id": "8fe5c8fb-9722-4cae-966e-1096303611a5",
           "name": "ELECTRICAL ROOM",
           "length": 5,
           "breadth": 13,
@@ -528,7 +536,7 @@
           "source": "label"
         },
         {
-          "id": "7e6296b6-7170-43fc-9a32-befbdbbbb681",
+          "id": "a31d9027-1b8b-4d33-84bf-83228a0ccb77",
           "name": "BEDROOM",
           "length": 15.1667,
           "breadth": 14.5,
@@ -537,7 +545,7 @@
           "source": "label"
         },
         {
-          "id": "96ebbf58-195f-4541-8bba-03164f1a59a0",
+          "id": "be19ab8a-5539-4d87-9000-0553a4794f0f",
           "name": "LIFT",
           "length": 7.4167,
           "breadth": 5.9167,
@@ -546,7 +554,7 @@
           "source": "label"
         },
         {
-          "id": "813bf347-87c7-4e13-8881-46fc2850aca0",
+          "id": "21dc3dae-ab50-4c49-912c-9c9fee35507a",
           "name": "LIVING ROOM",
           "length": 17,
           "breadth": 11.4167,
@@ -555,7 +563,7 @@
           "source": "label"
         },
         {
-          "id": "67cfab15-6377-4a16-bf81-187b96db6f7f",
+          "id": "4e8dd2d8-c6ff-4e26-b8d7-b57611b0707a",
           "name": "FOYER",
           "length": 5,
           "breadth": 6.75,
@@ -564,7 +572,7 @@
           "source": "label"
         },
         {
-          "id": "23bfcbc4-5407-4774-b491-c9e1f7f1b552",
+          "id": "85f082c0-a138-424b-bd9b-f29b803da18d",
           "name": "OPEN LOBBY",
           "length": 20.5,
           "breadth": 11.75,
@@ -573,7 +581,7 @@
           "source": "label"
         },
         {
-          "id": "d6ca937d-32b1-4ff4-a524-10b735fcff98",
+          "id": "9f5b4b1a-fb65-446d-876c-6a8c1407734f",
           "name": "KITCHEN+DINING",
           "length": 9.5,
           "breadth": 18.3333,
@@ -582,7 +590,7 @@
           "source": "label"
         },
         {
-          "id": "f63b1ca6-c430-4d01-b07c-23c3916001fe",
+          "id": "b0ed38b0-c5fe-4669-b699-0470d8287e14",
           "name": "LIVING ROOM",
           "length": 12.1667,
           "breadth": 18.3333,
@@ -591,7 +599,7 @@
           "source": "label"
         },
         {
-          "id": "8897009b-9ff7-4be6-bfc6-f45e9f689ee8",
+          "id": "de2514e7-ab9f-4740-abd1-432f1f7892bc",
           "name": "FOYER",
           "length": 7.5,
           "breadth": 11.8333,
@@ -600,7 +608,7 @@
           "source": "label"
         },
         {
-          "id": "38a25727-f53d-459d-b401-ab791593bb2d",
+          "id": "468490df-f178-469a-9cbc-bf96894daa60",
           "name": "FOYER",
           "length": 7.5,
           "breadth": 11.5,
@@ -609,7 +617,7 @@
           "source": "label"
         },
         {
-          "id": "a93391ca-9b61-4a6f-9c66-711a29aeba7b",
+          "id": "70150a19-1aee-4a33-81db-9b0828c411f4",
           "name": "KITCHEN+DINING",
           "length": 6.75,
           "breadth": 18.3333,
@@ -618,7 +626,7 @@
           "source": "label"
         },
         {
-          "id": "d8245ba0-b8cc-411e-b8be-b60ca0509edb",
+          "id": "99cecea7-2bc7-4e81-84b7-3547e08898d3",
           "name": "LIVING ROOM",
           "length": 10.25,
           "breadth": 17.25,
@@ -627,7 +635,7 @@
           "source": "label"
         },
         {
-          "id": "a3a0f6e3-0285-4e7c-b90d-cc5af65f3d20",
+          "id": "0acc5350-4d73-426a-9c20-49ed43113740",
           "name": "BEDROOM",
           "length": 15.9167,
           "breadth": 17.1667,
@@ -636,7 +644,7 @@
           "source": "label"
         },
         {
-          "id": "05a84fb6-6b4a-41ca-94a9-e988032c7a2a",
+          "id": "9522b9fe-6577-48c5-b9a6-ab9711cee741",
           "name": "BEDROOM",
           "length": 16.5,
           "breadth": 17.25,
@@ -645,7 +653,7 @@
           "source": "label"
         },
         {
-          "id": "b2aabcd7-dfc3-40bd-901a-10785b83f8e9",
+          "id": "c05fd3ba-5a54-4e39-9bd1-119acb8264d1",
           "name": "WATER CLOSET",
           "length": 6.8333,
           "breadth": 13.0833,
@@ -654,7 +662,7 @@
           "source": "label"
         },
         {
-          "id": "d6abc286-9330-43af-9304-d40aa06fc9c8",
+          "id": "07256d3d-a07c-483c-810a-bf2df6ab1ec7",
           "name": "WATER CLOSET",
           "length": 6.8333,
           "breadth": 13.0833,
@@ -663,7 +671,7 @@
           "source": "label"
         },
         {
-          "id": "38a5dcd5-0978-423b-9d38-0905ca6aee75",
+          "id": "f70793a9-6838-4918-9d30-0947e44b6114",
           "name": "WALK IN CLOSET",
           "length": 6.0833,
           "breadth": 10.1667,
@@ -672,7 +680,7 @@
           "source": "label"
         },
         {
-          "id": "96bc72a3-545d-4c10-97d9-1b1283a8776c",
+          "id": "8ce3e0ec-03cb-48cc-a2ce-4ce3474e29e2",
           "name": "WALK IN CLOSET",
           "length": 5.0833,
           "breadth": 10.1667,
@@ -681,7 +689,7 @@
           "source": "label"
         },
         {
-          "id": "75069fe0-b247-4ca6-9a62-bf003ff3d67b",
+          "id": "aff19d64-8b1f-4ba7-8bca-59a80a5da228",
           "name": "WALK IN CLOSET",
           "length": 5,
           "breadth": 9,
@@ -690,7 +698,7 @@
           "source": "label"
         },
         {
-          "id": "bc493bbf-d396-4730-a228-c28b422750dd",
+          "id": "3f7aefc9-2870-469c-9f75-65a642e150e3",
           "name": "BEDROOM",
           "length": 21.25,
           "breadth": 13.75,
@@ -699,7 +707,7 @@
           "source": "label"
         },
         {
-          "id": "8b8a4d35-053d-468b-9db4-11b2f52ea516",
+          "id": "d42b5601-e568-4822-b706-05fd280ce017",
           "name": "BEDROOM",
           "length": 16.5,
           "breadth": 17.25,
@@ -708,7 +716,7 @@
           "source": "label"
         },
         {
-          "id": "2591ed8a-99b3-4ccd-9b63-936c16f3f32c",
+          "id": "95fb547d-ae21-4136-b3ee-1027b0b80d1e",
           "name": "ATT. W/C",
           "length": 5.6667,
           "breadth": 8,
@@ -719,13 +727,13 @@
       ]
     },
     {
-      "id": "049f1e68-6bae-4f28-b604-eee5103c0b13",
+      "id": "34e96ab3-de49-46a3-8788-de7763c6b4f4",
       "name": "TOP FLOOR",
       "merged": false,
       "info": "(Area = 441.00 Sq.ft)",
       "rooms": [
         {
-          "id": "9946b348-0c2e-4f2f-86bf-4a99f8aa077d",
+          "id": "57c84d0a-a5b1-400b-abaf-2ceebfdd4d00",
           "name": "LIFT",
           "length": 7.4167,
           "breadth": 5.9167,
@@ -734,7 +742,7 @@
           "source": "label"
         },
         {
-          "id": "09374943-1c91-4c2b-a1ef-4aee256f82f1",
+          "id": "3e0b30e8-1dc2-4961-afba-5afa9d271af9",
           "name": "ELECTRICAL ROOM",
           "length": 12.3333,
           "breadth": 6.5833,
@@ -743,7 +751,7 @@
           "source": "label"
         },
         {
-          "id": "6c3c420e-d231-44c4-bd68-71be0b818300",
+          "id": "917a4dbc-87c1-4b03-a2d9-dbe4093bc669",
           "name": "VOID SHAFT",
           "length": 7.5833,
           "breadth": 4.9167,
@@ -752,7 +760,7 @@
           "source": "label"
         },
         {
-          "id": "007f4d1d-b08e-4077-850a-f02e1ab5b80c",
+          "id": "c6742aec-5927-4896-a7f4-e6945ebf42b0",
           "name": "VOID SHAFT",
           "length": 7.5833,
           "breadth": 4.9167,
@@ -762,6 +770,5 @@
         }
       ]
     }
-  ],
-  "updatedAt": "2026-10-29T06:12:32.168Z"
+  ]
 }

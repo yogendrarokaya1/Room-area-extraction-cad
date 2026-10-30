@@ -1,0 +1,741 @@
+{
+  "id": "0680a5db-25d9-4ac8-ae37-dd1528052722",
+  "originalName": "CLINIC_PROJECT_METRIC.dwg",
+  "uploadedAt": "2026-10-30T07:25:37.938Z",
+  "units": {
+    "factorToFeet": 0.0032808398950131233,
+    "unitName": "mm",
+    "system": "metric"
+  },
+  "stats": {
+    "entities": 3387,
+    "layers": 118,
+    "insUnits": 4,
+    "boundaryLines": 10582,
+    "textEntities": 687,
+    "roomLabels": 70,
+    "floorTitles": 10,
+    "unitSystem": "metric",
+    "unitName": "mm"
+  },
+  "groups": [
+    {
+      "id": "27058a4b-169c-40c5-85f0-deb4d787ffa7",
+      "name": "BASEMENT FLOOR",
+      "merged": false,
+      "info": "",
+      "rooms": [
+        {
+          "id": "b09d06ce-6004-47be-85c0-47549e3076e1",
+          "name": "Electrical Room",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "acb36e20-a7bb-45e0-94ad-b64a2773e5ee",
+          "name": "Electrical Room",
+          "length": 14.372,
+          "breadth": 9.6765,
+          "areaFt2": 139.07,
+          "areaOverridden": false,
+          "source": "measured"
+        },
+        {
+          "id": "d4d3ca26-5a49-400e-8d49-1601521fc19d",
+          "name": "Store Room",
+          "length": 0.9843,
+          "breadth": 4.065,
+          "areaFt2": 4,
+          "areaOverridden": false,
+          "source": "measured"
+        },
+        {
+          "id": "8a876753-ef17-4e00-a46e-871730f4b8e3",
+          "name": "Store Room",
+          "length": 9.5339,
+          "breadth": 13.2663,
+          "areaFt2": 126.48,
+          "areaOverridden": false,
+          "source": "measured"
+        },
+        {
+          "id": "e2260590-b30d-41d9-b170-75953e51bd3a",
+          "name": "Changing Room",
+          "length": 3.973,
+          "breadth": 5.1432,
+          "areaFt2": 20.43,
+          "areaOverridden": false,
+          "source": "measured"
+        },
+        {
+          "id": "7f2c09ad-da2f-4fe1-aec1-38b1a4608f88",
+          "name": "Shoe Changing+Locker",
+          "length": 14.2944,
+          "breadth": 11.0359,
+          "areaFt2": 157.75,
+          "areaOverridden": false,
+          "source": "measured"
+        },
+        {
+          "id": "2ec83a7a-c7ba-4e07-ae94-7dec65855d43",
+          "name": "Changing Room",
+          "length": 3.9464,
+          "breadth": 5.4805,
+          "areaFt2": 21.63,
+          "areaOverridden": false,
+          "source": "measured"
+        },
+        {
+          "id": "7d91d2a2-9dae-495c-b4e4-85bde3c7e158",
+          "name": "Changing Room",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        }
+      ]
+    },
+    {
+      "id": "98557d6f-e71f-4af7-be49-fe91e4f67d1c",
+      "name": "GROUND LEVEL",
+      "merged": false,
+      "info": "",
+      "rooms": [
+        {
+          "id": "a963f69d-233e-4431-85f1-6c5a772250ba",
+          "name": "Electrical Room",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "39486fb8-788a-45f6-8e08-998f3d94888e",
+          "name": "Electrical Room",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "13ab96fb-ca25-4de3-bb51-0db7e720efb9",
+          "name": "Store Room",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "c21bfa00-de2d-495d-9061-9736be62ac2d",
+          "name": "Changing Room",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "7ad16bc5-d01b-4689-ab0d-237667732a3d",
+          "name": "Shoe Changing+Locker",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "a67bf726-fedb-40c2-93df-8010cf68555c",
+          "name": "Shoe Changing+Locker",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "a084f9ff-b902-49c4-a7ed-27b9e4bbee10",
+          "name": "Shoe Changing+Locker",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "d4e5774c-a489-4962-b715-79b2e2757afd",
+          "name": "Shoe Changing+Locker",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        }
+      ]
+    },
+    {
+      "id": "9445d76e-d659-49d4-aa38-5c2e39220285",
+      "name": "GROUND LEVEL",
+      "merged": false,
+      "info": "",
+      "rooms": [
+        {
+          "id": "c5c4b737-3501-4978-970f-89e001bd1b06",
+          "name": "Changing Room",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "2104d4a0-ca7c-4503-86eb-8e49f7dc2e7b",
+          "name": "Store Room",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "e2afe271-7988-41ae-ada7-4103542cd416",
+          "name": "Electrical Room",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        }
+      ]
+    },
+    {
+      "id": "7d1d3b4c-4756-4073-981f-0af15246442b",
+      "name": "GROUND FLOOR",
+      "merged": false,
+      "info": "",
+      "rooms": [
+        {
+          "id": "9dfce0d9-98fb-407c-b234-3b9ec7c66034",
+          "name": "Reception/ Waiting Area",
+          "length": 39.1118,
+          "breadth": 49.3759,
+          "areaFt2": 1931.18,
+          "areaOverridden": false,
+          "source": "measured"
+        },
+        {
+          "id": "320ad6c1-df12-40ce-a823-3d05c89d3544",
+          "name": "Counselling Room",
+          "length": 34.1122,
+          "breadth": 45.1873,
+          "areaFt2": 1541.44,
+          "areaOverridden": false,
+          "source": "measured"
+        },
+        {
+          "id": "4275a48d-98ef-4ad5-b56e-431c63ede973",
+          "name": "Shoe Rack",
+          "length": 52.6029,
+          "breadth": 44.3421,
+          "areaFt2": 2332.52,
+          "areaOverridden": false,
+          "source": "measured"
+        },
+        {
+          "id": "837064ad-9f64-4192-bb6e-64d5aeff8cab",
+          "name": "Gym Room",
+          "length": 51.0187,
+          "breadth": 37.7242,
+          "areaFt2": 1924.64,
+          "areaOverridden": false,
+          "source": "measured"
+        },
+        {
+          "id": "49ca8630-3680-491f-a3a6-75eebd4fed40",
+          "name": "Electrical Room",
+          "length": 49.6534,
+          "breadth": 44.3398,
+          "areaFt2": 2201.62,
+          "areaOverridden": false,
+          "source": "measured"
+        },
+        {
+          "id": "73fab18c-74bb-4304-8291-b5d64ebc5886",
+          "name": "WC",
+          "length": 46.5435,
+          "breadth": 44.1475,
+          "areaFt2": 2054.78,
+          "areaOverridden": false,
+          "source": "measured"
+        },
+        {
+          "id": "40724399-e540-45c9-bd94-6e35bfcc8648",
+          "name": "Changing Room",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        }
+      ]
+    },
+    {
+      "id": "e5b084b0-45d5-468a-bf32-7039e9db7fcc",
+      "name": "FIRST FLOOR",
+      "merged": false,
+      "info": "",
+      "rooms": [
+        {
+          "id": "275bb253-9b52-4c63-b966-310b61b957cb",
+          "name": "Cabin",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "ceab0739-b2c7-4417-93cf-6e60132726f5",
+          "name": "Cabin",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "77de87d9-906c-4db9-b07b-d2ebffb714c5",
+          "name": "Cabin",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "0af42592-1116-4113-bb38-d9d5299cd4ff",
+          "name": "WC",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "1eced07d-33a6-4cce-a808-d7fae782fc8d",
+          "name": "Electrical Room",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "b56ef4bb-dfd4-4e3d-b30f-308bd28168e6",
+          "name": "Equipment Room",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "4ebac5f4-8a5a-4677-945a-4c8af885f755",
+          "name": "WC",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "f96215eb-f657-45b7-a1d7-de4cfd7bdd06",
+          "name": "Ward",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "484c8a9b-bc55-40d5-82d6-c15cf450f16c",
+          "name": "Changing Room",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        }
+      ]
+    },
+    {
+      "id": "accceee5-03fc-443a-8af3-7de4b153fd22",
+      "name": "SECOND FLOOR",
+      "merged": false,
+      "info": "",
+      "rooms": [
+        {
+          "id": "bd8f4c62-bfab-42aa-9ab2-062af61e494a",
+          "name": "Cabin",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "266cbc46-0650-4ba4-b145-919f4f5d4041",
+          "name": "Cabin",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "d3a63c06-b2eb-4a4b-a28e-c6a404b5daab",
+          "name": "Cabin",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "d6889b01-5f34-4283-b9f9-5926ca7c4bbe",
+          "name": "WC",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "9c192283-322e-47ad-bad1-52317ab2b18e",
+          "name": "Electrical Room",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "124570d9-c8e3-4d92-aed6-f30cf8809abe",
+          "name": "Equipment Room",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "df55424c-4a95-4edf-9a7d-92e6973680e5",
+          "name": "WC",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "2433fa05-0d62-48ae-bb6f-52bad63c5196",
+          "name": "Ward",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "e4fda66d-155b-493e-ab22-0f961e93241f",
+          "name": "Reception/ Waiting Area",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        }
+      ]
+    },
+    {
+      "id": "187ffb2a-1b0b-4b50-af6f-beb695bd74c8",
+      "name": "THIRD FLOOR",
+      "merged": false,
+      "info": "",
+      "rooms": [
+        {
+          "id": "f3530b32-ed49-46e5-8c91-24d22ea55bfa",
+          "name": "Cabin",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "91fbc47b-8237-4781-931a-a17bb2b2979c",
+          "name": "Cabin",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "1c030b56-baed-429f-a45b-e97b592a006b",
+          "name": "Cabin",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "6a0ccfba-c137-490b-acb9-eaaa446f4e62",
+          "name": "WC",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "b84e1d8e-40cd-4e9e-85c8-1ef87ae055f2",
+          "name": "Electrical Room",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "17529786-24de-4f63-b17a-8eba0afbdcf6",
+          "name": "Equipment Room",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "c7fb3393-9635-49bf-b2d6-78bb8fb38fcb",
+          "name": "WC",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "9849d6fe-1574-403b-bf9b-842c6964d709",
+          "name": "Ward",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "c72ea84d-4b28-4c2b-a65e-cc0ee11c7c89",
+          "name": "Counselling Room",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        }
+      ]
+    },
+    {
+      "id": "5906d222-8724-4471-aed9-a3fbed86027d",
+      "name": "FOURTH FLOOR",
+      "merged": false,
+      "info": "",
+      "rooms": [
+        {
+          "id": "3a703134-5b26-4115-97fa-a4cd770cd830",
+          "name": "Cabin",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "6bcd3ab2-e1fd-4bec-87e3-88e0860b911f",
+          "name": "Cabin",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "1f512861-aab0-499c-9350-3b5bb8b73339",
+          "name": "Cabin",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "0f19b0c2-e66c-485f-b390-1c6b30b03bf8",
+          "name": "WC",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "eb2ac259-e054-49c2-b444-bbee8e7594b1",
+          "name": "Electrical Room",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "8c777f98-63d6-4af1-bf50-191400999453",
+          "name": "Equipment Room",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "aa8b024a-f0cb-45c6-9ea3-2a700f20fd30",
+          "name": "WC",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "11b45624-d0f4-44b2-a161-d4653ca60b46",
+          "name": "Ward",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "7f23580b-a55f-4168-8c63-59b995dc898e",
+          "name": "Shoe Rack",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        }
+      ]
+    },
+    {
+      "id": "d960fe4e-7600-41e6-9dc9-9d64f5ab0b7f",
+      "name": "LOWER TERRACE",
+      "merged": false,
+      "info": "",
+      "rooms": [
+        {
+          "id": "b6f067d2-a361-4d40-ba90-b61384e7ee16",
+          "name": "Electrical Room",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        }
+      ]
+    },
+    {
+      "id": "8ed8227d-d7fb-4a1c-ba8a-39adc495a114",
+      "name": "UPPER TERRACE",
+      "merged": false,
+      "info": "",
+      "rooms": [
+        {
+          "id": "a9db0ca8-2786-4b8f-a036-6f68f92de2f9",
+          "name": "WC",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "db7c1d3b-9cd2-4fad-a6c7-53473ed689e3",
+          "name": "Reception/ Waiting Area",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        }
+      ]
+    },
+    {
+      "id": "46c4ad5b-78f7-4e08-b54c-633b56314c44",
+      "name": "UNASSIGNED",
+      "merged": false,
+      "info": "Rooms that could not be matched to a floor plan title",
+      "rooms": [
+        {
+          "id": "b9f49ea1-d7a9-484c-8644-2a14b7cd958b",
+          "name": "Room 0",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "deb3dd52-c144-4a02-891c-530c05b8c1eb",
+          "name": "Room 0",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "38e36c5f-5e21-40f2-8a48-0097b0066cc0",
+          "name": "Room 0",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "ec0c9b8f-acfa-45dc-8c11-1300a76be04a",
+          "name": "Electrical Room",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        },
+        {
+          "id": "d4be5df3-3ecf-4007-80a1-194f3b5dbfec",
+          "name": "Shoe Changing+Locker",
+          "length": 0,
+          "breadth": 0,
+          "areaFt2": 0,
+          "areaOverridden": false,
+          "source": "label"
+        }
+      ]
+    }
+  ]
+}
